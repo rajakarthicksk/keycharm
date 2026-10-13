@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Charm",
+  "version": "0.1.0",
+  "description": "A swinging 3D charm that dangles from your mouse pointer.",
+  "permissions": ["storage"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_popup": "popup.html", "default_title": "Mouse Charm" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "mouse-charm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "three": "0.160.1" },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/three": "0.160.0",
+    "esbuild": "^0.21.5",
+    "typescript": "^5.4.5"
+  }
+}

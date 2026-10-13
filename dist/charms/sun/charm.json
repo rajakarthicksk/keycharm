@@ -1,0 +1,18 @@
+{
+  "name": "Sunny",
+  "image": "sun.png",
+  "size": 85,
+  "thickness": 0.14,
+  "ring": [0.5, 0.117],
+  "weight": 0.45,
+  "threadLength": 150,
+  "threadStyle": "dotted",
+  "threadColor": "#6b7f8f",
+  "drag": 0.025,
+  "spin": 1.0,
+  "twistStiffness": 20,
+  "twistDamping": 0.25,
+  "glow": true,
+  "glowColor": "#ffcf4d",
+  "glowSize": 2.4
+}
